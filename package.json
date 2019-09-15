@@ -1,0 +1,24 @@
+{
+  "name": "budget-app-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dobrzyckahanna/Budget-App-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dobrzyckahanna/Budget-App-API/issues"
+  },
+  "homepage": "https://github.com/dobrzyckahanna/Budget-App-API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "mongoose": "^5.7.1"
+  }
+}
