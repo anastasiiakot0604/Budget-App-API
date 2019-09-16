@@ -1,7 +1,11 @@
 const Joi = require("joi");
 const mongoose = require("mongoose");
 
-const Expense = mongoose.model("Expense", new mongoose.Schema({	
+const Expense = mongoose.model("Expense", new mongoose.Schema({
+  userId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User'
+  },
   amount: {
     type: Number,
     required: true,
